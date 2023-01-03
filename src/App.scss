@@ -236,7 +236,7 @@ body {
 
     .banner-img-back {
       background: url(./assets/images/desktop/image-graphic-design.jpg);
-      background-position: center center;
+      background-position: cover cover;
       background-repeat: no-repeat;
       width: 50%;
       display: flex;
@@ -267,7 +267,7 @@ body {
     }
     .banner-img-back-right {
       background: url(./assets/images/desktop/image-photography.jpg);
-      background-position: center center;
+      background-position: cover cover;
       background-repeat: no-repeat;
       width: 50%;
       display: flex;
@@ -277,7 +277,7 @@ body {
       text-align: center;
       padding-inline: 5rem;
       height: 70vh;
-
+      position: relative;
       .banner-item-right {
         margin-top: auto;
         margin-bottom: 5rem;
