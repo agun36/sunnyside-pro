@@ -42,7 +42,7 @@ export const TopBanner = () => {
       <div className='topbanner banner '>
         <div className='banner-img-back'>
           <div className='banner-item'>
-            <h1>Graphic Design</h1>
+            <h1 className='graphic-title'>Graphic Design</h1>
             <p>
               Great design make you memorable. We deliver artwork that
               underscores you brand messgae that captures potential clients
@@ -52,7 +52,7 @@ export const TopBanner = () => {
         </div>
         <div className='banner-img-back-right'>
           <div className='banner-item-right'>
-            <h1>Photography</h1>
+            <h1 className='photo-title'>Photography</h1>
             <p>
               Increase your credibility by getting the most stunning high
               quality photos that improve your businness image

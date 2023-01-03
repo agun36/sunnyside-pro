@@ -228,44 +228,47 @@ body {
         width: 100%;
       }
     }
-    .banner-img-back {
-      background: url(./assets/images/desktop/image-graphic-design.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      width: 50%;
+    .banner {
       display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      padding-inline: 5rem;
-      height: 70vh;
-      .banner-item {
-        margin-top: auto;
-        margin-bottom: 4rem;
+      .banner-img-back {
+        background: url(./assets/images/desktop/image-graphic-design.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-inline: 5rem;
+        height: 70vh;
+        .banner-item {
+          margin-top: auto;
+          margin-bottom: 4rem;
+        }
+        @media screen and (max-width: 600px) {
+          width: 100%;
+        }
       }
-      @media screen and (max-width: 600px) {
-        width: 100%;
-      }
-    }
-    .banner-img-back-right {
-      background: url(./assets/images/desktop/image-photography.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      width: 50%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      padding-inline: 5rem;
-      height: 70vh;
-      .banner-item-right {
-        margin-top: auto;
-        margin-bottom: 5rem;
-      }
-      @media screen and (max-width: 600px) {
-        width: 100%;
+      .banner-img-back-right {
+        background: url(./assets/images/desktop/image-photography.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-inline: 5rem;
+        height: 70vh;
+        .banner-item-right {
+          margin-top: auto;
+          margin-bottom: 5rem;
+        }
+        @media screen and (max-width: 600px) {
+          width: 100%;
+        }
       }
     }
   }
