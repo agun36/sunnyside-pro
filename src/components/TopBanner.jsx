@@ -9,17 +9,19 @@ export const TopBanner = () => {
     <div className='brandbanner'>
       <div className=' transform'>
         <div className=' content'>
-          <h4 className=' content-title'>
-            Transform your <br className='mobile-title' /> brand
-          </h4>
-          <p className=' content-text'>
-            We are a full-service creative agency specializing in helping brands
-            grow fast.Engage your clients through compelling visuals that do
-            most of the marketing for you
-          </p>
-          <div className='learnmore-btn'>
-            <button className='learnmore-btn1'>Learn more</button>
-            <span className='learnmoreline'></span>
+          <div className='mt-auto'>
+            <h4 className=' content-title'>
+              Transform your <br className='mobile-title' /> brand
+            </h4>
+            <p className=' content-text'>
+              We are a full-service creative agency specializing in helping
+              brands grow fast.Engage your clients through compelling visuals
+              that do most of the marketing for you
+            </p>
+            <div className='learnmore-btn-wrapper'>
+              <button className='learnmore-btn'>Learn more</button>
+              <div className='learnmore-line yellow'></div>
+            </div>
           </div>
         </div>
         <div className='banner-img'>
@@ -31,17 +33,19 @@ export const TopBanner = () => {
           <img src={orangecup} alt='' />
         </div>
         <div className='content'>
-          <h4 className='content-title'>
-            Stand out to the right <br className='mobile-title' /> audience
-          </h4>
-          <p className='content-text'>
-            Using a collaborative formula of designers,
-            reseachers,photographer,videographer,and copywriters. We'ill build
-            and extends your brand in digital place.
-          </p>
-          <div className='learnmore-btn'>
-            <button className='learnmore-btn2'>Learn more</button>
-            <span className='learnmoreline2'></span>
+          <div className='mt-auto'>
+            <h4 className='content-title'>
+              Stand out to the right <br className='mobile-title' /> audience
+            </h4>
+            <p className='content-text'>
+              Using a collaborative formula of designers,
+              reseachers,photographer,videographer,and copywriters. We'ill build
+              and extends your brand in digital place.
+            </p>
+            <div className='learnmore-btn-wrapper'>
+              <button className='learnmore-btn'>Learn more</button>
+              <div className='learnmore-line red'></div>
+            </div>
           </div>
         </div>
       </div>
