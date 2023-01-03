@@ -241,13 +241,14 @@ body {
       text-align: center;
       padding-inline: 5rem;
       height: 70vh;
-      order: 2;
+
       .banner-item {
         margin-top: auto;
         margin-bottom: 4rem;
       }
       @media screen and (max-width: 600px) {
         width: 100%;
+        order: 2;
       }
     }
     .banner-img-back-right {
@@ -262,13 +263,14 @@ body {
       text-align: center;
       padding-inline: 5rem;
       height: 70vh;
-      order: 1;
+
       .banner-item-right {
         margin-top: auto;
         margin-bottom: 5rem;
       }
       @media screen and (max-width: 600px) {
         width: 100%;
+        order: 1;
       }
     }
   }
