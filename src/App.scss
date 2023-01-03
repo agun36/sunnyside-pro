@@ -243,13 +243,14 @@ body {
       height: 70vh;
 
       .banner-item {
-        color: $color-Dark-desaturated-cyan-graphic-design-text;
         margin-top: auto;
         margin-bottom: 4rem;
         .graphic-title {
+          color: $color-Dark-desaturated-cyan-graphic-design-text;
           margin-bottom: 4.5rem;
         }
         .graphic-text {
+          color: $color-Dark-desaturated-cyan-graphic-design-text;
           line-height: 1.9;
         }
       }
