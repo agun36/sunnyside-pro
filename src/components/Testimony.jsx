@@ -4,7 +4,7 @@ import thomas from '../assets/images/desktop/image-thomas.jpg'
 import jenny from '../assets/images/desktop/image-jennie.jpg'
 export const Testimony = () => {
   return (
-    <div className='wrapperstest container'>
+    <div className='wrapperstest '>
       <h1 className='wrapper-subtitle'>Clients testimonials</h1>
       <div className='wrapper_client'>
         <div className='testimonywrapper'>

@@ -6,40 +6,46 @@ import orangecup from '../assets/images/desktop/image-stand-out.jpg'
 // import graphic from '../assets/images/desktop/image-graphic-design.jpg'
 export const TopBanner = () => {
   return (
-    <div className='wrapbanner'>
-      <div className='topbanner'>
-        <div className='banner-text'>
-          <h4 className='topbanner-title'>
+    <div className='brandbanner'>
+      <div className=' transform'>
+        <div className=' content'>
+          <h4 className=' content-title'>
             Transform your <br className='mobile-title' /> brand
           </h4>
-          <p className='topbanner-text'>
+          <p className=' content-text'>
             We are a full-service creative agency specializing in helping brands
             grow fast.Engage your clients through compelling visuals that do
             most of the marketing for you
           </p>
-          <button className='topbanner-btn'>Learn more</button>
+          <div className='learnmore-btn'>
+            <button className='learnmore-btn1'>Learn more</button>
+            <span className='learnmoreline'></span>
+          </div>
         </div>
         <div className='banner-img'>
           <img src={egg} alt='' />
         </div>
       </div>
-      <div className='topbanner'>
+      <div className='transform'>
         <div className='banner-img'>
           <img src={orangecup} alt='' />
         </div>
-        <div className='banner-text'>
-          <h4 className='topbanner-title'>
+        <div className='content'>
+          <h4 className='content-title'>
             Stand out to the right <br className='mobile-title' /> audience
           </h4>
-          <p className='topbanner-text'>
+          <p className='content-text'>
             Using a collaborative formula of designers,
             reseachers,photographer,videographer,and copywriters. We'ill build
             and extends your brand in digital place.
           </p>
-          <button className='topbanner-btn-orange'>Learn more</button>
+          <div className='learnmore-btn'>
+            <button className='learnmore-btn2'>Learn more</button>
+            <span className='learnmoreline2'></span>
+          </div>
         </div>
       </div>
-      <div className='topbanner banner '>
+      <div className='transform '>
         <div className='banner-img-back'>
           <div className='banner-item'>
             <h1 className='graphic-title'>Graphic Design</h1>

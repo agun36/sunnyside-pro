@@ -38,7 +38,7 @@ html::-webkit-scrollbar-thumb {
   border-radius: 5rem;
 }
 body {
-  font-family: $sunnyfamily;
+  font-family: $barlowfamily;
   font-size: 1.8rem;
 }
 .container {
@@ -103,20 +103,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 9rem;
+    font-size: 4rem;
     font-weight: 700;
+    font-family: $sunnyfamily;
     color: $color-White;
     letter-spacing: 1rem;
     margin-top: 6rem;
-    @media screen and (max-width: 800px) {
-      text-align: center;
-      font-size: 3rem;
-      margin-top: 3rem;
-    }
-    @media screen and (max-width: 600px) {
-      font-size: 3rem;
-      margin-top: 15rem;
-    }
+    text-align: center;
   }
   .menu-icon {
     display: none;
@@ -135,6 +128,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 5rem;
     .arrowdown {
       object-fit: contain;
     }
@@ -148,19 +142,19 @@ body {
     }
   }
 }
-.wrapbanner {
+.brandbanner {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  .topbanner {
+  .transform {
     display: flex;
     @media screen and (max-width: 600px) {
       flex-direction: column-reverse;
       align-items: center;
     }
     width: 100%;
-    .banner-text {
+    .content {
       width: 50%;
       background: $color-White;
       display: flex;
@@ -172,50 +166,68 @@ body {
         width: 100%;
         text-align: center;
       }
-    }
-    .topbanner-title {
-      margin-top: 2rem;
-      margin-bottom: 3rem;
-      font-weight: 800;
-      // font-size: 3.5rem;
-      @media screen and (max-width: 800px) {
-        text-align: center;
-        font-size: 1.4rem;
+      .content-title {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        font-weight: 800;
+        font-size: 3.5rem;
+        font-family: $sunnyfamily;
+        @media screen and (max-width: 800px) {
+          text-align: center;
+        }
       }
-    }
-    .topbanner-text {
-      color: $color-Grayish-blue;
-      font-weight: 700;
-      font-size: 1.3rem;
-      @media screen and (max-width: 600px) {
-        font-size: 1.4rem;
+      .content-text {
+        color: $color-Very-dark-grayish-blue;
         font-weight: 600;
+        line-height: 1.5;
+        @media screen and (max-width: 600px) {
+          font-size: 1.4rem;
+          font-weight: 600;
+        }
+      }
+      .learnmore-btn {
+        width: 15rem;
+        height: 3rem;
+
+        margin-top: 4rem;
+        font-weight: 800;
+        font-family: $sunnyfamily;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        @media screen and (max-width: 800px) {
+          margin: 5rem auto 4rem;
+        }
+        .learnmore-btn1 {
+          background: $color-White;
+          font-family: $sunnyfamily;
+        }
+        .learnmoreline {
+          height: 1rem;
+          width: 15rem;
+          right: 0;
+          bottom: 0;
+          border-radius: 1.4rem;
+          background: rgba($color: $color-Yellow, $alpha: 0.3);
+          position: absolute;
+        }
+      }
+      .learnmore-btn2 {
+        background: $color-White;
+      }
+      .learnmoreline2 {
+        height: 1rem;
+        width: 15rem;
+        right: 0;
+        bottom: 0;
+        border-radius: 1.4rem;
+        background: rgba($color: $color-Soft-red, $alpha: 0.3);
+        position: absolute;
       }
     }
-    .topbanner-btn {
-      width: 15rem;
-      height: 3rem;
-      background: none;
-      box-shadow: 0rem 0.6rem 0rem 0rem $color-Yellow;
-      border-radius: 3rem;
-      margin-top: 4rem;
-      font-weight: 800;
-      @media screen and (max-width: 800px) {
-        margin: 5rem auto 4rem;
-      }
-    }
-    .topbanner-btn-orange {
-      width: 15rem;
-      height: 3rem;
-      background: none;
-      box-shadow: 0rem 0.6rem 0rem 0rem $color-Soft-red;
-      border-radius: 3rem;
-      margin-top: 4rem;
-      font-weight: 800;
-      @media screen and (max-width: 800px) {
-        margin: 5rem auto 4rem;
-      }
-    }
+
     .banner-img {
       width: 50%;
 
@@ -298,19 +310,16 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 9rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
   .wrapper-subtitle {
-    letter-spacing: 2rem;
+    letter-spacing: 1rem;
     text-transform: uppercase;
     color: $color-Grayish-blue;
     @media screen and (max-width: 800px) {
       text-align: center;
       line-height: 3;
-      font-size: 1.4rem;
-    }
-    @media screen and (max-width: 150px) {
-      font-size: 0.8rem;
-      letter-spacing: 1.5rem;
+      font-size: 2rem;
     }
   }
   .wrapper_client {
@@ -326,7 +335,10 @@ body {
       display: flex;
       flex-direction: column;
       align-items: center;
+      padding-inline: 5rem;
       img {
+        height: 5rem;
+        width: 5rem;
         border-radius: 50%;
       }
       .testimony-text {
@@ -337,6 +349,7 @@ body {
       }
       .testimony-title {
         margin-top: 3rem;
+        margin-bottom: 3rem;
         text-align: center;
         small {
           color: $color-Grayish-blue;
@@ -346,7 +359,6 @@ body {
   }
 }
 .blockquote {
-  margin: 3rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   .blockimg {
@@ -362,15 +374,15 @@ body {
 }
 .footer {
   width: 100%;
-  padding: 3rem;
+  // padding: 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgba($color: $color-Dark-moderate-cyan-footer, $alpha: 0.3);
+  background-color: $color-Dark-moderate-cyan-footer;
   height: 70vh;
   .title {
-    margin-bottom: 10rem;
+    margin-bottom: 4rem;
     font-size: 3rem;
     font-weight: 800;
     color: $color-Dark-desaturated-cyan-graphic-design-text;
@@ -395,7 +407,7 @@ body {
   .footer-icons {
     display: flex;
     column-gap: 4.5rem;
-    margin-top: 10rem;
+    margin-top: 4rem;
   }
   @media screen and (max-width: 600px) {
     width: 100%;
