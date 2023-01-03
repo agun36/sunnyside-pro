@@ -43,7 +43,7 @@ export const TopBanner = () => {
         <div className='banner-img-back'>
           <div className='banner-item'>
             <h1 className='graphic-title'>Graphic Design</h1>
-            <p>
+            <p className='graphic-text'>
               Great design make you memorable. We deliver artwork that
               underscores you brand messgae that captures potential clients
               attention
