@@ -246,6 +246,7 @@ body {
         margin-top: auto;
         margin-bottom: 4rem;
         .graphic-title {
+          font-weight: 800;
           color: $color-Dark-desaturated-cyan-graphic-design-text;
           margin-bottom: 4.5rem;
         }
@@ -275,6 +276,15 @@ body {
       .banner-item-right {
         margin-top: auto;
         margin-bottom: 5rem;
+        .photo-title {
+          font-weight: 800;
+          margin-bottom: 4.5rem;
+          color: $color-Dark-blue-photography-text;
+        }
+        .photo-text {
+          line-height: 1.9;
+          color: $color-Dark-blue-photography-text;
+        }
       }
       @media screen and (max-width: 600px) {
         width: 100%;

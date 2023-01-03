@@ -53,7 +53,7 @@ export const TopBanner = () => {
         <div className='banner-img-back-right'>
           <div className='banner-item-right'>
             <h1 className='photo-title'>Photography</h1>
-            <p>
+            <p className='photo-text'>
               Increase your credibility by getting the most stunning high
               quality photos that improve your businness image
             </p>
